@@ -1,0 +1,43 @@
+.contenu {
+    width: 450px;
+
+    /* Centrer le contenu au milieu de la page */
+    margin: 10px auto;    
+}
+
+/* on sélectionne plusieurs balises en les séparant d'une virgule */
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    /*On supprime toutes les marges pour les balises <p> */
+    margin: 0px;
+}
+
+hr {
+    /* mise en place d'une couleur sur la balise <hr> */
+    border-color: lightskyblue;
+}
+
+.details {
+    height: 150px;
+}
+
+div.details img {
+    height: 150px;
+    width: 150px;
+    float: left;
+    border-radius: 50%;
+}
+
+.liste_details {
+    float: left;
+    list-style-type: none; /* Supprimer le style de la liste, suppression des points */
+    margin-top: 30px;
+}
+
+.cv-section {
+    padding-bottom: 20px;
+
+}
